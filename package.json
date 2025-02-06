@@ -1,0 +1,27 @@
+{
+  "name": "testingapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefannikolic/testingAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefannikolic/testingAPI/issues"
+  },
+  "homepage": "https://github.com/stefannikolic/testingAPI#readme",
+  "dependencies": {
+    "cypress": "^14.0.2"
+  },
+  "scripts": {
+  "cypress:open": "cypress open",
+  "cypress:run": "cypress run"
+  } 
+}
